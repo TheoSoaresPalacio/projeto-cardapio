@@ -1,5 +1,131 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap');
 body {
-    font-family: 'Special Gothic', sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0; /* Remove as margens padrão do body */
+    padding: 0; /* Remove qualquer padding padrão */
+}
+header {
+    background-color: crimson;
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    border: 2px solid black;
+    border-radius: 0; /* Remove bordas arredondadas, se necessário */
+    margin: 0; /* Remove margens do header */
+    padding: 10px;
+    width: 100%; /* Garante que ocupe toda a largura */
+    height: auto; /* Ajusta a altura automaticamente */
+}
+h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 30px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    border: 3px solid rgba(0, 0, 0, 0.292);
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
+}
+nav a:hover {
+    color: black;
+}
+main {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+}
+h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: auto;
+}
+.hamburgueres {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.303);
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.titulo1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px 0 20px 20px;
+    width: 100%;
+    padding: 20px;
+}
+.gourmet {
+    text-align: center; 
+    max-width: 300px; 
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    background-color: lightgray;
+}
+.gourmet img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5); 
+}
+
+.gourmet h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.gourmet p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 15px;
+}
+.gourmet a {
+    text-decoration: none;
+    background-color: limegreen;
+    color: white;
+    font-size: 1.1em;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
 }
