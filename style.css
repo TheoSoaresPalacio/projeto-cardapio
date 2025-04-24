@@ -3,18 +3,18 @@
 body {
     background-color: white;
     color: black;
-    margin: 0; /* Remove as margens padrão do body */
-    padding: 0; /* Remove qualquer padding padrão */
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: crimson;
     font-family: 'Special Gothic Expanded One', sans-serif;
     border: 2px solid black;
-    border-radius: 0; /* Remove bordas arredondadas, se necessário */
-    margin: 0; /* Remove margens do header */
+    border-radius: 0;
+    margin: 0;
     padding: 10px;
-    width: 100%; /* Garante que ocupe toda a largura */
-    height: auto; /* Ajusta a altura automaticamente */
+    width: 100%;
+    height: auto;
 }
 h1 {
     color: white;
@@ -28,7 +28,6 @@ nav ul {
     margin: 10px;
     padding: 0;
     overflow: hidden;
-    
 }
 nav ul li {
     display: inline-block;
@@ -70,20 +69,23 @@ h3 {
     margin: auto;
 }
 .hamburgueres {
-    display: flex; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    flex-wrap: wrap; 
-    border: 3px solid black;
+    background-color: rgb(220, 20, 60);
+    display: flex; /* Ativa o flexbox */
+    justify-content: center; /* Centraliza as caixas horizontalmente */
+    align-items: flex-start; /* Alinha as caixas ao topo */
+    flex-wrap: wrap; /* Permite que as caixas quebrem linha, se necessário */
+    border: 5px solid black;
     border-radius: 10px;
     box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.303);
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px;
     width: 100%;
     max-width: 1200px;
 }
-
 .titulo1 {
+    background-color: rgba(220, 20, 60, 0.81);
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.8em;
     font-weight: bold;
     text-align: left;
@@ -92,33 +94,31 @@ h3 {
     padding: 20px;
 }
 .gourmet {
-    text-align: center; 
-    max-width: 300px; 
+    text-align: center;
+    max-width: 300px;
     margin: 10px;
     padding: 15px;
-    border: 2px solid #ccc; 
-    border-radius: 10px; 
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
-    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: orange;
 }
 .gourmet img {
-    width: 100%; 
-    height: auto;
-    border-radius: 10px; 
-    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5); 
+    width: 98%;
+    height: 28vh;
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
 }
-
 .gourmet h4 {
     font-size: 1.5em;
     font-weight: bold;
     margin: 10px 0 5px 0;
 }
-
 .gourmet p {
     font-size: 1.2em;
     line-height: 1.5em;
     margin: 0;
-    padding: 15px;
+    padding: 26px;
 }
 .gourmet a {
     text-decoration: none;
@@ -128,4 +128,127 @@ h3 {
     border: 3px solid black;
     border-radius: 10px;
     padding: 10px;
+}
+.gourmet a:hover {
+    color: black;
+}
+.artesanal {
+    text-align: center;
+    max-width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: orange;
+}
+.artesanal img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.artesanal h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+.artesanal p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 28px;
+}
+.artesanal a {
+    text-decoration: none;
+    background-color: limegreen;
+    color: white;
+    font-size: 1.1em;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.artesanal a:hover {
+    color: black;
+}
+.bigchicken {
+    text-align: center;
+    max-width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: orange;
+}
+.bigchicken img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.bigchicken h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+.bigchicken p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 42px;
+}
+.bigchicken a {
+    text-decoration: none;
+    background-color: limegreen;
+    color: white;
+    font-size: 1.1em;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.bigchicken a:hover {
+    color: black;
+}
+.simples {
+    text-align: center;
+    max-width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: orange;
+    overflow: hidden;
+}
+.simples img {
+    width: 100%; /* Faz a imagem ocupar toda a largura da caixa */
+    height: 28vh; /* Define uma altura fixa proporcional à viewport */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5); /* Adiciona sombra à imagem */
+    display: block; /* Remove espaços extras ao redor da imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+.simples h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+.simples p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 28px;
+}
+.simples a {
+    text-decoration: none;
+    background-color: limegreen;
+    color: white;
+    font-size: 1.1em;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.simples a:hover {
+    color: black;
 }
