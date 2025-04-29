@@ -196,7 +196,7 @@ h3 {
     font-size: 1.2em;
     line-height: 1.5em;
     margin: 0;
-    padding: 42px;
+    padding: 15px;
 }
 .bigchicken a {
     text-decoration: none;
@@ -250,5 +250,44 @@ h3 {
     padding: 10px;
 }
 .simples a:hover {
+    color: black;
+}
+.super {
+    text-align: center;
+    max-width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: orange;
+}
+.super img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.super h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+.super p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 15px;
+}
+.super a {
+    text-decoration: none;
+    background-color: limegreen;
+    color: white;
+    font-size: 1.1em;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.super a:hover {
     color: black;
 }
