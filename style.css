@@ -70,10 +70,10 @@ h3 {
 }
 .hamburgueres {
     background-color: rgb(220, 20, 60);
-    display: flex; /* Ativa o flexbox */
-    justify-content: center; /* Centraliza as caixas horizontalmente */
-    align-items: flex-start; /* Alinha as caixas ao topo */
-    flex-wrap: wrap; /* Permite que as caixas quebrem linha, se necessário */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
     border: 5px solid black;
     border-radius: 10px;
     box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.303);
@@ -104,8 +104,8 @@ h3 {
     background-color: orange;
 }
 .gourmet img {
-    width: 98%;
-    height: 28vh;
+    width: 94%;
+    height: 27vh;
     border-radius: 10px;
     box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
 }
@@ -143,8 +143,8 @@ h3 {
     background-color: orange;
 }
 .artesanal img {
-    width: 100%;
-    height: auto;
+    width: 94%;
+    height: 27vh;
     border-radius: 10px;
     box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
 }
@@ -182,8 +182,8 @@ h3 {
     background-color: orange;
 }
 .bigchicken img {
-    width: 100%;
-    height: auto;
+    width: 94%;
+    height: 27vh;
     border-radius: 10px;
     box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
 }
@@ -196,7 +196,7 @@ h3 {
     font-size: 1.2em;
     line-height: 1.5em;
     margin: 0;
-    padding: 15px;
+    padding: 41px;
 }
 .bigchicken a {
     text-decoration: none;
@@ -222,12 +222,12 @@ h3 {
     overflow: hidden;
 }
 .simples img {
-    width: 100%; /* Faz a imagem ocupar toda a largura da caixa */
-    height: 28vh; /* Define uma altura fixa proporcional à viewport */
-    border-radius: 10px; /* Bordas arredondadas */
-    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5); /* Adiciona sombra à imagem */
-    display: block; /* Remove espaços extras ao redor da imagem */
-    margin: 0 auto; /* Centraliza a imagem */
+    width: 94%; 
+    height: 27vh; 
+    border-radius: 10px; 
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 0 auto;
 }
 .simples h4 {
     font-size: 1.5em;
@@ -238,7 +238,7 @@ h3 {
     font-size: 1.2em;
     line-height: 1.5em;
     margin: 0;
-    padding: 28px;
+    padding: 37px;
 }
 .simples a {
     text-decoration: none;
@@ -263,8 +263,8 @@ h3 {
     background-color: orange;
 }
 .super img {
-    width: 100%;
-    height: auto;
+    width: 94%;
+    height: 27vh;
     border-radius: 10px;
     box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.5);
 }
@@ -277,7 +277,7 @@ h3 {
     font-size: 1.2em;
     line-height: 1.5em;
     margin: 0;
-    padding: 15px;
+    padding: 19px;
 }
 .super a {
     text-decoration: none;
